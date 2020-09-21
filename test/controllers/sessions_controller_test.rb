@@ -1,18 +1,18 @@
 require 'test_helper'
 
-class UsersControllerTest < ActionDispatch::IntegrationTest
+class SessionsControllerTest < ActionDispatch::IntegrationTest
   test "should get new" do
-    get users_new_url
+    get login_path
     assert_response :success
   end
 
   # test "should get create" do
-  #   get users_create_url
+  #   get login_path
   #   assert_response :success
   # end
 
-  # test "should get show" do
-  #   get users_show_url
+  # test "should get destroy" do
+  #   get logout_path
   #   assert_response :success
   # end
 
